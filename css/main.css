@@ -30,3 +30,103 @@ left: 100px;
 -webkit-animation: asteroid-rotate 7s ease-in-out infinite alternate; 
 animation: asteroid-rotate 7s ease-in-out infinite alternate; 
 }
+
+@-webkit-keyframes asteroid-rotate {
+
+0% {
+-webkit-transform: rotate(0deg);
+}
+
+100% {
+-webkit-transform: rotate(360deg);
+}
+
+}
+
+@keyframes asteroid-rotate {
+
+0% {
+transform: rotate(0deg);
+}
+
+100% {
+transform: rotate(360deg);
+}
+
+}
+
+.spaceship {
+position: absolute;
+width: 100px;
+height: 100px;
+top: 200px;
+left: 40%;
+-webkit-animation: bounce 5s ease infinite;
+animation: bounce 5s ease infinite;
+}
+
+@-webkit-keyframes bounce {
+
+0% {
+-webkit-transform: translateY(0);
+}
+
+50% {
+-webkit-transform: translateY(100px);
+}
+
+65% {
+-webkit-transform: translateX(-50px);
+-webkit-transform: rotate(90deg);
+}
+
+75% {
+-webkit-transform: translateY(-40px);
+}
+
+88% {
+-webkit-transform: translateX(-100px);
+}
+
+95% { 
+-webkit-transform: translateY(100px);
+}
+
+100% { 
+-webkit-transform: translateY(0);
+}
+
+}
+
+@keyframes bounce {
+
+0% {
+transform: translateY(0);
+}
+
+50% {
+transform: translateY(100px);
+}
+
+65% {
+transform: translateX(-50px);
+transform: rotate(90deg);
+}
+
+75% {
+transform: translateY(-40px);
+}
+
+88% {
+transform: translateX(-100px);
+}
+
+95% { 
+transform: translateY(100px);
+}
+
+100% { 
+transform: translateY(0);
+}
+
+}
