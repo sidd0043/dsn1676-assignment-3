@@ -28,6 +28,8 @@ body {
     height: 100px;
     top: 100px;
     left: 100px;
+    -webkit-animation: asteroid-rotate 7s ease-in-out infinite alternate;
+    animation: asteroid-rotate 7s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes asteroid-rotate {
@@ -58,6 +60,8 @@ body {
     height: 100px;
     top: 200px;
     left: 40%;
+    -webkit-animation: bounce 5s ease infinite;
+    animation: bounce 5s ease infinite;
 }
 
 -webkit-@keyframes bounce {
@@ -129,6 +133,8 @@ body {
 .stars {
     background-image: url(../images/star.svg);
     height: 100vh;
+    -webkit-animation: scale 15s infinite alternate;
+    animation: scale 15s infinite alternate;
     /*
     vh= viewport height
     would make it the same height as the window
