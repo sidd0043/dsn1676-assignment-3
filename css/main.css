@@ -33,25 +33,25 @@ animation: asteroid-rotate 7s ease-in-out infinite alternate;
 
 @-webkit-keyframes asteroid-rotate {
 
-0% {
--webkit-transform: rotate(0deg);
-}
-
-100% {
--webkit-transform: rotate(360deg);
-}
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 
 }
 
 @keyframes asteroid-rotate {
 
-0% {
-transform: rotate(0deg);
-}
-
-100% {
-transform: rotate(360deg);
-}
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
 
 }
 
@@ -67,101 +67,97 @@ animation: bounce 5s ease infinite;
 
 @-webkit-keyframes bounce {
 
-0% {
--webkit-transform: translateY(0);
-}
-
-50% {
--webkit-transform: translateY(100px);
-}
-
-65% {
--webkit-transform: translateX(-50px);
--webkit-transform: rotate(90deg);
-}
-
-75% {
--webkit-transform: translateY(-40px);
-}
-
-88% {
--webkit-transform: translateX(-100px);
-}
-
-95% { 
--webkit-transform: translateY(100px);
-}
-
-100% { 
--webkit-transform: translateY(0);
-}
+    0% {
+        -webkit-transform: translateY(0);
+    }
+    
+    50% {
+        -webkit-transform: translateY(100px);
+    }
+    
+    65% {
+        -webkit-transform: translateX(-50px);
+        -webkit-transform: rotate(90deg);
+    }
+    
+    75% {
+        -webkit-transform: translateY(-40px);
+    }
+    
+    88% {
+        -webkit-transform: translateX(-100px);
+    }
+    
+    95% { 
+        -webkit-transform: translateY(100px);
+    }
+    
+    100% { 
+        -webkit-transform: translateY(0);
+    }
 
 }
 
 @keyframes bounce {
 
-0% {
-transform: translateY(0);
-}
-
-50% {
-transform: translateY(100px);
-}
-
-65% {
-transform: translateX(-50px);
-transform: rotate(90deg);
-}
-
-75% {
-transform: translateY(-40px);
-}
-
-88% {
-transform: translateX(-100px);
-}
-
-95% { 
-transform: translateY(100px);
-}
-
-100% { 
-transform: translateY(0);
-}
+    0% {
+        transform: translateY(0);
+    }
+    
+    50% {
+        transform: translateY(100px);
+    }
+    
+    65% {
+        transform: translateX(-50px);
+        transform: rotate(90deg);
+    }
+    
+    75% {
+        transform: translateY(-40px);
+    }
+    
+    88% {
+        transform: translateX(-100px);
+    }
+    
+    95% { 
+        transform: translateY(100px);
+    }
+    
+    100% { 
+        transform: translateY(0);
+    }
 
 }
 
 .stars {
 background-image: url(../images/stars.svg);
 height: 100vh;
-/* 
-vh=viewport height
-would make it the same height as the window
-*/
 -webkit-animation: scale 15s infinite alternate;
 animation: scale 15s infinite alternate;
 }
 
 @-webkit-keyframes scale {
 
-0% {
--webkit-transform: scale(1,1);
-}
+    0% {
+        -webkit-transform: scale(1,1);
+    }
 
-100% {
--webkit-transform: scale(1.2,1.2);
-}
-
+    100% {
+        -webkit-transform: scale(1.2,1.2);
+    }
+    
 }
 
 @keyframes scale {
 
-0% {
-transform: scale(1,1);
-}
-
-100% {
-transform: scale(1.2,1.2);
-}
+    0% {
+        transform: scale(1,1);
+    }
+    
+    100% {
+        transform: scale(1.2,1.2);
+    }
 
 }
