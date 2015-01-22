@@ -41,3 +41,43 @@ body {
     }
 }
 
+.spaceship{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 40%;
+}
+
+@keyframes bounce {
+    
+    0% {
+        transform:translateY(0);
+    }
+    
+    50%{
+        transform:translateY(100px);
+    }
+    
+    65% {
+        transform:translateX(-50px);
+        transform: rotate(90deg);
+    }
+    
+    75%{
+        transform:translateY(-40px);
+    }
+    
+    88%{
+        transform:translateX(-100px);
+    }
+    
+    95%{
+        transform: translateY(100px);
+    }
+    
+    100% {
+        transform:translateY(0);
+    }
+    
+        
