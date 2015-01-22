@@ -72,16 +72,16 @@ animation: bounce 5s ease infinite;
     }
     
     50% {
-        -webkit-transform: translateY(100px);
+        -webkit-transform: translateY(-80px);
     }
     
     65% {
-        -webkit-transform: translateX(-50px);
-        -webkit-transform: rotate(90deg);
+        -webkit-transform: translateX(30px);
+        -webkit-transform: rotate(-90deg);
     }
     
     75% {
-        -webkit-transform: translateY(-40px);
+        -webkit-transform: translateY(20px);
     }
     
     88% {
