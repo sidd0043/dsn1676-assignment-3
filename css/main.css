@@ -41,7 +41,7 @@ body {
     }
 }
 
-.spaceship{
+.spaceship {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -55,7 +55,7 @@ body {
         transform:translateY(0);
     }
     
-    50%{
+    50% {
         transform:translateY(100px);
     }
     
@@ -64,15 +64,15 @@ body {
         transform: rotate(90deg);
     }
     
-    75%{
+    75% {
         transform:translateY(-40px);
     }
     
-    88%{
+    88% {
         transform:translateX(-100px);
     }
     
-    95%{
+    95% {
         transform: translateY(100px);
     }
     
@@ -82,8 +82,8 @@ body {
     
 }
 
-.stars{
-    background-image:url(../images/star.svg);
+.stars {
+    background-image: url(../images/star.svg);
     height: 100vh;
     /*
     vh= viewport height
@@ -91,14 +91,14 @@ body {
     */
 }
 
-@keyframes scale{
+@keyframes scale {
     
-    0%{
+    0% {
         transform: scale(1,1);
     }
     
-    100%{
+    100% {
         transform:scale(1.2,1.2);
     }
-}
-        
+
+}        
