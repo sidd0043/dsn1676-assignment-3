@@ -67,24 +67,24 @@ body {
 -webkit-@keyframes bounce {
     
     0% {
-        -webkit-transform:translateY(0);
+        -webkit-transform: translateY(0);
     }
     
     50% {
-        -webkit-transform:translateY(100px);
+        -webkit-transform: translateY(100px);
     }
     
     65% {
-        -webkit-transform:translateX(-50px);
+        -webkit-transform: translateX(-50px);
         -webkit-transform: rotate(90deg);
     }
     
     75% {
-        -webkit-transform:translateY(-40px);
+        -webkit-transform: translateY(-40px);
     }
     
     88% {
-        -webkit-transform:translateX(-100px);
+        -webkit-transform: translateX(-100px);
     }
     
     95% {
@@ -92,7 +92,7 @@ body {
     }
     
     100% {
-        -webkit-transform:translateY(0);
+        -webkit-transform: translateY(0);
     }
     
 }
@@ -100,24 +100,24 @@ body {
 @keyframes bounce {
     
     0% {
-        transform:translateY(0);
+        transform: translateY(0);
     }
     
     50% {
-        transform:translateY(100px);
+        transform: translateY(100px);
     }
     
     65% {
-        transform:translateX(-50px);
+        transform: translateX(-50px);
         transform: rotate(90deg);
     }
     
     75% {
-        transform:translateY(-40px);
+        transform: translateY(-40px);
     }
     
     88% {
-        transform:translateX(-100px);
+        transform: translateX(-100px);
     }
     
     95% {
@@ -125,13 +125,13 @@ body {
     }
     
     100% {
-        transform:translateY(0);
+        transform: translateY(0);
     }
     
 }
 
 .stars {
-    background-image: url(../images/star.svg);
+    background-image: url(../images/stars.svg);
     height: 100vh;
     -webkit-animation: scale 15s infinite alternate;
     animation: scale 15s infinite alternate;
@@ -148,7 +148,7 @@ body {
     }
     
     100% {
-        -webkit-transform:scale(1.2,1.2);
+        -webkit-transform: scale(1.2,1.2);
     }
 
 }
@@ -160,7 +160,7 @@ body {
     }
     
     100% {
-        transform:scale(1.2,1.2);
+        transform: scale(1.2,1.2);
     }
 
 }        
