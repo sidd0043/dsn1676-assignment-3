@@ -16,3 +16,17 @@ text-size-adjust: 100%;
 *, *::before, *::after {
 box-sizing: inherit;
 }
+
+body {
+background-color: black;
+}
+
+.asteroid {
+position: absolute;
+width: 100px;
+height: 100px;
+top: 100px;
+left: 100px;
+-webkit-animation: asteroid-rotate 7s ease-in-out infinite alternate; 
+animation: asteroid-rotate 7s ease-in-out infinite alternate; 
+}
