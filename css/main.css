@@ -80,4 +80,25 @@ body {
         transform:translateY(0);
     }
     
+}
+
+.stars{
+    background-image:url(../images/star.svg);
+    height: 100vh;
+    /*
+    vh= viewport height
+    would make it the same height as the window
+    */
+}
+
+@keyframes scale{
+    
+    0%{
+        transform: scale(1,1);
+    }
+    
+    100%{
+        transform:scale(1.2,1.2);
+    }
+}
         
