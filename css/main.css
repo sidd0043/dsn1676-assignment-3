@@ -2,165 +2,166 @@
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
+@-viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
+box-sizing: border-box;
 
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+box-sizing: inherit;
 }
 
 body {
-    background-color:black;
+background-color: black;
 }
 
-.asteriod {
-    position:absolute;
-    width: 100px;
-    height: 100px;
-    top: 100px;
-    left: 100px;
-    -webkit-animation: asteroid-rotate 7s ease-in-out infinite alternate;
-    animation: asteroid-rotate 7s ease-in-out infinite alternate;
+.asteroid {
+position: absolute;
+width: 100px;
+height: 100px;
+top: 100px;
+left: 100px;
+-webkit-animation: asteroid-rotate 7s ease-in-out infinite alternate; 
+animation: asteroid-rotate 7s ease-in-out infinite alternate; 
 }
 
 @-webkit-keyframes asteroid-rotate {
-    
-    0%{
-        -webkit-transform: rotate(0deg);
-    }
-    
-    100%{
-        -webkit-transform: rotate(360deg);
-    }
+
+0% {
+-webkit-transform: rotate(0deg);
+}
+
+100% {
+-webkit-transform: rotate(360deg);
+}
+
 }
 
 @keyframes asteroid-rotate {
-    
-    0%{
-        transform: rotate(0deg);
-    }
-    
-    100%{
-        transform: rotate(360deg);
-    }
+
+0% {
+transform: rotate(0deg);
+}
+
+100% {
+transform: rotate(360deg);
+}
+
 }
 
 .spaceship {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 200px;
-    left: 40%;
-    -webkit-animation: bounce 5s ease infinite;
-    animation: bounce 5s ease infinite;
+position: absolute;
+width: 100px;
+height: 100px;
+top: 200px;
+left: 40%;
+-webkit-animation: bounce 5s ease infinite;
+animation: bounce 5s ease infinite;
 }
 
--webkit-@keyframes bounce {
-    
-    0% {
-        -webkit-transform: translateY(0);
-    }
-    
-    50% {
-        -webkit-transform: translateY(100px);
-    }
-    
-    65% {
-        -webkit-transform: translateX(-50px);
-        -webkit-transform: rotate(90deg);
-    }
-    
-    75% {
-        -webkit-transform: translateY(-40px);
-    }
-    
-    88% {
-        -webkit-transform: translateX(-100px);
-    }
-    
-    95% {
-        -webkit-transform: translateY(100px);
-    }
-    
-    100% {
-        -webkit-transform: translateY(0);
-    }
-    
+@-webkit-keyframes bounce {
+
+0% {
+-webkit-transform: translateY(0);
+}
+
+50% {
+-webkit-transform: translateY(100px);
+}
+
+65% {
+-webkit-transform: translateX(-50px);
+-webkit-transform: rotate(90deg);
+}
+
+75% {
+-webkit-transform: translateY(-40px);
+}
+
+88% {
+-webkit-transform: translateX(-100px);
+}
+
+95% { 
+-webkit-transform: translateY(100px);
+}
+
+100% { 
+-webkit-transform: translateY(0);
+}
+
 }
 
 @keyframes bounce {
-    
-    0% {
-        transform: translateY(0);
-    }
-    
-    50% {
-        transform: translateY(100px);
-    }
-    
-    65% {
-        transform: translateX(-50px);
-        transform: rotate(90deg);
-    }
-    
-    75% {
-        transform: translateY(-40px);
-    }
-    
-    88% {
-        transform: translateX(-100px);
-    }
-    
-    95% {
-        transform: translateY(100px);
-    }
-    
-    100% {
-        transform: translateY(0);
-    }
-    
+
+0% {
+transform: translateY(0);
+}
+
+50% {
+transform: translateY(100px);
+}
+
+65% {
+transform: translateX(-50px);
+transform: rotate(90deg);
+}
+
+75% {
+transform: translateY(-40px);
+}
+
+88% {
+transform: translateX(-100px);
+}
+
+95% { 
+transform: translateY(100px);
+}
+
+100% { 
+transform: translateY(0);
+}
+
 }
 
 .stars {
-    background-image: url(../images/stars.svg);
-    height: 100vh;
-    -webkit-animation: scale 15s infinite alternate;
-    animation: scale 15s infinite alternate;
-    /*
-    vh= viewport height
-    would make it the same height as the window
-    */
+background-image: url(../images/stars.svg);
+height: 100vh;
+/* 
+vh=viewport height
+would make it the same height as the window
+*/
+-webkit-animation: scale 15s infinite alternate;
+animation: scale 15s infinite alternate;
 }
 
 @-webkit-keyframes scale {
-    
-    0% {
-        -webkit-transform: scale(1,1);
-    }
-    
-    100% {
-        -webkit-transform: scale(1.2,1.2);
-    }
+
+0% {
+-webkit-transform: scale(1,1);
+}
+
+100% {
+-webkit-transform: scale(1.2,1.2);
+}
 
 }
 
 @keyframes scale {
-    
-    0% {
-        transform: scale(1,1);
-    }
-    
-    100% {
-        transform: scale(1.2,1.2);
-    }
 
-}        
+0% {
+transform: scale(1,1);
+}
+
+100% {
+transform: scale(1.2,1.2);
+}
+
+}
